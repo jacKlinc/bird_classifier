@@ -44,6 +44,6 @@ if pic is not None:
     if st.button("Classify"):
         prob = round(probs[pred_idx].item(), 5)
         "Probability: ", str(prob)
-        
-        "Prediction: ", pred if prob > 0.5 else 'Not sure'
+        "Prediction: ", pred
+        #"Prediction: ", pred if prob > 0.5 else 'Not sure'
 
